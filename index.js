@@ -6,7 +6,7 @@ server.get("/", (req, res) => {
   res.status(200).json({ hello: "Web 23" });
 });
 
-server.get("api/", (req, res) => {
+server.get("/api", (req, res) => {
   res.status(200).json({ hello: "this is api" });
 });
 
